@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1525
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockHistoryParser", "StockHistoryParser\StockHistoryParser.csproj", "{7804C9BB-F866-44DE-AAD2-205836225D5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockHistoryParser", "StockHistoryParser\StockHistoryParser.csproj", "{F7569CCE-C604-4E63-8D85-81CA0277E8F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7804C9BB-F866-44DE-AAD2-205836225D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7804C9BB-F866-44DE-AAD2-205836225D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7804C9BB-F866-44DE-AAD2-205836225D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7804C9BB-F866-44DE-AAD2-205836225D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7569CCE-C604-4E63-8D85-81CA0277E8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7569CCE-C604-4E63-8D85-81CA0277E8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7569CCE-C604-4E63-8D85-81CA0277E8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7569CCE-C604-4E63-8D85-81CA0277E8F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0DF45475-2A68-4E44-8460-5D683B6903FC}
+		SolutionGuid = {CED1336B-574E-409B-8B73-314E66CA1181}
 	EndGlobalSection
 EndGlobal
