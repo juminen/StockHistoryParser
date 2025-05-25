@@ -97,10 +97,10 @@ namespace StockHistoryParser
 		private string GetStockNameFromFileName(string filepath)
 		{
 			string filename = System.IO.Path.GetFileName(filepath);
-			string[] name = filename.Split('-');
-			if (stockNames.ContainsKey(name[0]))
+			string[] name = filename.Split('_');
+			if (stockNames.ContainsKey(name[0].ToUpper()))
 			{
-				return stockNames[name[0]];
+				return stockNames[name[0].ToUpper()];
 			}
 			return name[0];
 		}
@@ -132,8 +132,9 @@ namespace StockHistoryParser
 			public StockData(string name, string date, string closingPrice)
 			{
 				CompanyName = name;
-				Date = Convert.ToDateTime(date);
-				ClosingPrice = Convert.ToDecimal(closingPrice);
+				//2025-05-23
+				Date = DateTime.Parse(date);
+				ClosingPrice = decimal.Parse(closingPrice, System.Globalization.CultureInfo.InvariantCulture);
 			}
 
 			public override string ToString()
